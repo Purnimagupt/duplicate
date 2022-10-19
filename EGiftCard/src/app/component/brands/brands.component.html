@@ -1,0 +1,38 @@
+<p>brands works!</p>
+
+<html>
+<head>
+    <link rel="stylesheet" href="brands.component.css" type="text/css" />
+</head>
+
+<body>
+    <table id="table">
+        <tr>
+            <td colspan="2">
+                <div class="header">Brand Cards</div>
+            </td>
+            
+        </tr>
+        <tr >
+            <td colspan="3">
+            </td>
+        </tr>
+        <tr >
+            <td >
+                <div class="div1" *ngFor="let brand of brands" style="width: 35%;height:25%">
+                    <img src="{{brand.imageUrl}}" style="width: 20%;height: 20%; "/>
+                    <p>{{brand.brandDescription}}</p>
+                    <button class="btn btn1" routerLink="purchase-cards" routerLinkActive="active-link">{{brand.brandName}}</button>
+                </div>
+            </td>
+          </tr>
+
+          
+
+      
+    </table>
+</body>
+
+</html>
+
+

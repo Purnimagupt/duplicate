@@ -1,0 +1,15 @@
+.about
+{
+    background-image: url('../../../assets/images/aboutus.png');
+    height: 650px;
+    background-position: center top;
+   
+    background-size: cover;
+    
+}
+
+.container h1{
+    color: white;
+    font-weight: bold;
+
+}
